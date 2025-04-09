@@ -18,7 +18,7 @@
             text-align: center;
         }
         .content {
-            padding: 20px;
+            padding: 150px;
         }
         .movie {
             background-color: #fff;
@@ -30,6 +30,7 @@
         .movie img {
             width: 15%;
             border-radius: 8px;
+            display: flex;
         }
         h2 {
             color: #333;
@@ -39,7 +40,7 @@
             color: #fff;
             text-align: center;
             padding: 10px;
-            position: fixed;
+            position: relative;
             width: 100%;
             bottom: 0;
         }
@@ -94,6 +95,95 @@
         <p><strong>Sinopse:</strong> Quatro anos após a destruição da Ilha Nublar, os dinossauros agora vivem e caçam ao lado de humanos em todo o mundo. Esse frágil equilíbrio remodela o futuro e deve determinar de uma vez por todas se os seres humanos continuarão sendo a espécie dominante em um planeta que agora compartilham com as criaturas mais temíveis da história.</p>
     </div>
 </div>
+<style>
+    h1 {
+        text-align: center;
+    }
+ table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+th {
+    background-color: #333;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tr:hover {
+    background-color: #f1f1f1;
+}
+</style>
+
+<h1>Prêmios da Saga Jurassic Park</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Título do Filme</th>
+                <th>Ano de Lançamento</th>
+                <th>Prêmios Recebidos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jurassic Park</td>
+                <td>1993</td>
+                <td>
+                    Oscar (Melhor Efeitos Visuais)<br>
+                    3 Prêmios Saturno (Melhor Filme de Ficção Científica, Melhor Direção, Melhor Efeitos Especiais)
+                </td>
+            </tr>
+            <tr>
+                <td>The Lost World: Jurassic Park</td>
+                <td>1997</td>
+                <td>
+                    1 Prêmio Saturno (Melhor Efeitos Visuais)<br>
+                    1 Prêmio MTV Movie (Melhor Sequência de Ação)
+                </td>
+            </tr>
+            <tr>
+                <td>Jurassic Park III</td>
+                <td>2001</td>
+                <td>
+                    1 Prêmio Teen Choice (Melhor Filme de Aventura)
+                </td>
+            </tr>
+            <tr>
+                <td>Jurassic World</td>
+                <td>2015</td>
+                <td>
+                    1 Prêmio Teen Choice (Melhor Filme de Aventura)<br>
+                    1 Prêmio People's Choice (Filme de Ação Favorito)
+                </td>
+            </tr>
+            <tr>
+                <td>Jurassic World: Fallen Kingdom</td>
+                <td>2018</td>
+                <td>
+                    1 Prêmio Teen Choice (Melhor Filme de Aventura)<br>
+                    1 Prêmio MTV Movie (Melhor Sequência de Ação)
+                </td>
+            </tr>
+            <tr>
+                <td>Jurassic World: Dominion</td>
+                <td>2022</td>
+                <td>
+                    1 Prêmio People's Choice (Filme Favorito de Ação)
+                </td>
+            </tr>
+        </tbody>
+    </table>
+<footer class="footer">
+        <p>&copy; 2025 Jurassic Park. Todos os direitos reservados.</p>
+    </footer>
 
 </body>
 </html>
